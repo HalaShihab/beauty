@@ -1,0 +1,73 @@
+*{
+  margin:0;
+  padding:0;
+}
+header{
+  background-image:url(images/woman-wore-pink-makeup-beautifully-decorated-flowers-isolated-white.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.nav-bar{
+  background: regb(0, 0, 0, 0.5);
+  height: 80px;
+}
+.logo{
+  margin: 10px 50px;
+  height: 70px;
+  width: 100px;
+}
+.menu{
+  float: right;
+  list-style: none;
+  margin:20px;
+}
+.menu li{
+  display: inline-block;
+  margin: 10px 5px;
+}
+.menu li a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px 10px;
+  letter-spacing: 2px;
+  border: 1px solid rgb(212, 75, 98);
+}
+.menu li a:hover{
+  background: palevioletred;
+  color:#fff;
+  transition: .4s;
+}
+.welcome{
+  position: relative;
+  text-align: center;
+  top:160px;
+  color: rgb(228, 140, 155)
+}
+.welcome h1{
+  font-size: 42px;
+  margin: 25px;
+}
+.btn{
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 5px;
+  padding:7px 10px;
+  text-decoration: none;
+  border: 1px solid rgb(212, 75, 98);
+}
+.btn1{
+  background:palevioletred ;
+  color:white;
+}
+.btn2{
+  color:white;
+}
+.btn2:hover{
+  background: pink;
+  color: palevioletred;
+  transition: .4s;
+}
+@media only screen and(min-width: 768px) {
+  
+}
